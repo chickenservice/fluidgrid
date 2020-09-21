@@ -1,7 +1,8 @@
 {
     "name": "@chickenservice/fluidgrid",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A javascript component that aligns arbitrary html elements in a grid similar to flickr or google images.",
     "license": "MIT",
-    "repository": "chickenservice/fluidgrid"
+    "repository": "chickenservice/fluidgrid",
+    "main": "./src/fluid-grid.js"
 }
