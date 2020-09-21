@@ -1,4 +1,6 @@
 # fluidgrid
+[![npm (scoped)](https://img.shields.io/npm/v/@chickenservice/fluidgrid.svg)](https://www.npmjs.com/package/@chickenservice/fluidgrid)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@chickenservice/fluidgrid.svg)](https://www.npmjs.com/package/@chickenservice/fluidgrid)
 
 A javascript component that aligns arbitrary html elements in a grid similar to flickr or google images.
 

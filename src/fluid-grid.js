@@ -144,3 +144,5 @@ class Row {
 function proportionateWidth(w, h, maxHeight) {
   return Math.floor(w * (maxHeight / h));
 }
+
+module.exports = FluidGrid;
