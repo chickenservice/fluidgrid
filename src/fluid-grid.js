@@ -8,14 +8,14 @@ class FluidGrid {
 	update() {
 		this._getGridElements();
 
-		var content = document.getElementById(config.elementId);
+		var content = document.getElementById(this.config.elementId);
 		var gridWidth = content.offsetWidth;
 		var newDimensions = this._calcDimensions(gridWidth);
 		this._updateElements(newDimensions);
 	}
 
 	_getGridElements() {
-		this.elements = document.querySelectorAll("#" + config.elementId + " " + config.childSelector);
+		this.elements = document.querySelectorAll("#" + this.config.elementId + " " + this.config.childSelector);
 
 		if(this._gridElementsAddedOrRemoved())
 		{
