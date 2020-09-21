@@ -1,0 +1,26 @@
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#menu {
+    max-width: 80%;
+}
+
+input {
+    max-width: 100%;
+}
+
+#container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+#container > div {
+    border: 5px solid black;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="grid.css" />
+    </head>
+    <body>
+        <h2>Fluid Grid</h2>
+        <p>Add and remove boxes or just resize the window to see fluid grid in action.</p>
+        <div id="menu">
+            Boxes: <input type="number" id="number-of-boxes" min="1" max="100">
+            Maximumg height: <input type="number" id="max-height" min="20" max="800" value="320">
+            Margin: <input type="number" id="margin" min="0" max="50" value="5">
+            <button type="button" onclick="addRandomBoxes();">Create boxes</button>
+        </div>
+        <div id="container"></div>
+    </body>
+    <script src="../src/fluid-grid.js"></script>
+    <script src="grid.js"></script>
+    <script>
+        document.body.onload = addRandomBoxes;
+    </script>
+</html>
