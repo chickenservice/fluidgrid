@@ -4,5 +4,9 @@
     "description": "A javascript component that aligns arbitrary html elements in a grid similar to flickr or google images.",
     "license": "MIT",
     "repository": "chickenservice/fluidgrid",
-    "main": "./src/fluid-grid.js"
+    "main": "./src/fluid-grid.js",
+    "devDependencies": {
+        "eslint": "^7.9.0",
+        "eslint-config-google": "^0.14.0"
+    }
 }
