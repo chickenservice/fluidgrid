@@ -1,0 +1,7 @@
+{
+    "name": "@chickenservice/fluidgrid",
+    "version": "0.0.1",
+    "description": "A javascript component that aligns arbitrary html elements in a grid similar to flickr or google images.",
+    "license": "MIT",
+    "repository": "chickenservice/fluidgrid"
+}
